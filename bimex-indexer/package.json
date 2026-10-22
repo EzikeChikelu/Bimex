@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node init && node index.js",
     "api": "node api.js",
     "reporte-mensual": "node jobs/reporteMensual.js",
     "reporte-mensual:dry-run": "node jobs/reporteMensual.js --dry-run",
