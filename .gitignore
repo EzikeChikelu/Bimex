@@ -1,6 +1,4 @@
 # ===== SECRETS =====
-.env
-.env.local
 .env.*.local
 .env.production.local
 *.pem
@@ -39,7 +37,6 @@ target/
 .LSOverride
 
 # ===== EDITOR =====
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -49,3 +46,4 @@ target/
 
 # ===== TEST OUTPUT =====
 test-output/
+config.bat
