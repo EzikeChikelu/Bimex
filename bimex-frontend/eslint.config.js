@@ -34,4 +34,4 @@ export default defineConfig([
       globals: globals.node,
     },
   },
-])
+]);
